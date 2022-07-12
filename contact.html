@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me | Vince Ermitano</title>
+</head>
+<body>
+    <header>
+        <figure>
+            <a href="index.html">
+                <img src="./assets/images/profile-pic.png" alt="Image of logo" width="30">
+                Vince Ermitano
+            </a> 
+        </figure>
+
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="projects.html" title="Go to Projects Page">Projects</a></li>
+                <li><a href="experimental.html" title="Go to Experimental Page">Experimental</a></li>
+                <li><a href="about.html" title="Go to About Page">About Me</a></li>
+                <li><a href="contact.html" title="Go to Contact Page">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <form id="contactForm">
+            <div id="nameInputSection">
+                <label for="fullnameFld"><strong>Full Name</strong></label>
+                <input type="text" maxlength="40" name="fullnameFld" id="fullnameFld" required>
+            </div>
+            <br />
+            <div id="emailInputSection">
+                <label for="emailFld"><strong>Email</strong></label>
+                <input type="email" name="emailFld" id="emailFld" required maxlength="64">
+            </div>
+            <br />
+            <div id="messageInputSection">
+                <label for="message"><b>Your Message</b></label>
+                <textarea id="message" name="message" rows="4" cols="50" placeholder="Enter here" required maxlength="32000"></textarea>
+            </div>
+        </form>
+        <br />
+        <button type="submit" form="contactForm">Send Message</button>
+    </main>
+
+    <hr />
+
+    <footer>
+        <a href="https://github.com/vince-ermitano" target="_blank" title="Go to Vince's Github"><img src="./assets/images/github-png-icon-free-download-813498.png" alt="Link to Vince's Github" width="25"></a>
+        <a href="https://www.linkedin.com/in/vince-ermitano-014992223/" target="_blank" title="Go to Vince's LinkedIn"><img src="./assets/images/linkedin-icon.png" alt="Link to Vince's LinkedIn" width="25"></a>
+    </footer>
+</body>
+</html>
